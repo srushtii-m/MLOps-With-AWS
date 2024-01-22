@@ -1,8 +1,8 @@
 ## Git Commands
 
-### Create remote repositories in AWS code commit:
-cd my-website
-git init   #Start tracking
+### Create remote repositories in AWS code commit:  
+cd my-website  
+git init   #Start tracking  
 
 
 ### Copy files to new folder:
