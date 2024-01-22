@@ -5,22 +5,22 @@ cd my-website
 git init   #Start tracking  
 
 
-### Copy files to new folder:
-git status
-git add .
-git commit -m "This is my first commit"
+### Copy files to new folder:  
+git status  
+git add .  
+git commit -m "This is my first commit"   
 
-git add <list of files> --> adding list of files
-git add --all -->Add all files
-git add .  -->Add all files
-git add *.txt --> Add all text files in current directory
-git add docs/*.txt  --> Add all text files in docs directory
-git add docs/  -->add all files in docs directory
+git add <list of files> --> adding list of files   
+git add --all -->Add all files   
+git add .  -->Add all files   
+git add *.txt --> Add all text files in current directory    
+git add docs/*.txt  --> Add all text files in docs directory   
+git add docs/  -->add all files in docs directory   
 
 
-### Staged differences: 
-git diff
-git diff --staged
+### Staged differences:    
+git diff   
+git diff --staged   
 
 
 ### Unstage:
