@@ -6,8 +6,7 @@ RANDOM_ID=$(aws secretsmanager get-random-password \
 --output text \
 --query RandomPassword)
 
-#### Create S3 Bucket
-aws s3api create-bucket --bucket awsml-$RANDOM_ID
+Create S3 Bucket: aws s3api create-bucket --bucket awsml-$RANDOM_ID
 
 Upload the file to AWS S3 Bucket: aws s3 cp file.txt s3://awsml-$RANDOM_ID 
 
