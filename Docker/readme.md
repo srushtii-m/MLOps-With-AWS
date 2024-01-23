@@ -1,4 +1,4 @@
-## Docker Containerization
+## Docker Containerization - Creating a docker image for linear regression model
 
 commands.md : It contains docker commands  
 
