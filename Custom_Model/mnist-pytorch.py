@@ -197,7 +197,6 @@ def model_fn(model_dir):
 def save_model(model, model_dir):
     logger.info("Saving the model.")
     path = os.path.join(model_dir, "model.pth")
-    # recommended way from http://pytorch.org/docs/master/notes/serialization.html
     torch.save(model.cpu().state_dict(), path)
 
 
