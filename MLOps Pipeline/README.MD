@@ -5,8 +5,7 @@ Setting up MLOps Pipeline in AWS:
 - Creating S3 Buckets: Create one S3 bucket to store raw and pre-processed machine learning training data and another to store output of feature engineering tasks (acts as a source repository for the model training stage).          
 - AWS Code Commit: Repository in AWS CodeCommit to store the machine learning source code, pipeline configuration files, and other related code assets and clone this repository into the AWS Cloud9 environment for further development and tracking.    
 - Elastic Container Registry (ECR): Repository for storing training and inference container images.     
-
-repository_validation.py: Script to validate the creation and configuration of these resources.     
+- repository_validation.py: Script to validate the creation and configuration of these resources.     
 
 2. Create Pipeline Assets
 
