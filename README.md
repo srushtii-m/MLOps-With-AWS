@@ -2,11 +2,11 @@
 
 ## Training Pipeline
 
-sagemaker-train-pipeline.ipynb: building a machine learning pipeline including data preprocessing, model training with hyperparameter tuning, model evaluation, and conditional model deployment based on performance metrics.   
+[sagemaker-train-pipeline.ipynb](https://github.com/srushtii-m/MLOps-With-AWS/blob/main/MLOps%20Pipeline/sagemaker-train-pipeline.ipynb): building a machine learning pipeline including data preprocessing, model training with hyperparameter tuning, model evaluation, and conditional model deployment based on performance metrics.   
 
 ## Inference Pipeline
 
-sagemaker-inference-pipeline.ipynb: creating an inference pipeline and using batch transformation capabilities.
+[sagemaker-inference-pipeline.ipynb](https://github.com/srushtii-m/MLOps-With-AWS/blob/main/MLOps%20Pipeline/sagemaker-inference-pipeline.ipynb): creating an inference pipeline and using batch transformation capabilities.
 
 ## Architecture of CI/CD Pipeline
 
